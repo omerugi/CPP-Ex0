@@ -1,4 +1,4 @@
-
+// authors: Lilach Mor & Omer Rugi
 
 #include "PhoneticFinder.hpp"
 #include <iostream>

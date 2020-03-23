@@ -1,5 +1,5 @@
 //
-// Created by omerugi on 20/03/2020.
+//// authors: Lilach Mor & Omer Rugi
 //
 
 #ifndef PHONETICFINDER_PHONETICFINDER_H
