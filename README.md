@@ -1,4 +1,3 @@
-<div dir="rtl" lang="he">
 
 # Phonatic serch 
 	
@@ -35,4 +34,4 @@ Output: "Dond" -> as we know t can be replaces with 't' and upper case are ignor
 
 
 Authors: Lilach Mor & Omer Rugi
-</div>
+
