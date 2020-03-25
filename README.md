@@ -17,12 +17,19 @@ Gving a txet with that contains known typos need to find a given word in side of
 The knowen typos:
 (switching the letters)
 v, w
+
 b, f, p
+
 g, j
+
 c, k, q
+
 s, z
+
 d, t
+
 o, u
+
 i, y
 
 * Also ignoring upper and lowe/upper case letter
