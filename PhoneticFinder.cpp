@@ -39,6 +39,9 @@ namespace phonetic{
  */
     bool check_letter(char c1, char c2) {
 
+	c1 = tolower(c1);
+        c2 = tolower(c2);
+
         switch (c1){
 
             case 'v':
