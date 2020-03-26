@@ -1,68 +1,44 @@
-<div dir="rtl" lang="he">
 
-# חיפוש פונטי - שלב א
+# Phonatic serch 
+	
+## First and second projects in CPP
 
-התקבלתם לעבודה במשרדו של חוקר פרטי,
-והמשימה הראשונה שקיבלתם היא לעבור על תמלילים של שיחות טלפון באנגלית ולחפש שם מילים חשודות.
+The project is deviede into two parts:
 
-הבעיה היא, שמי שתימלל את שיחות הטלפון עשה הרבה שגיאות כתיב.
-בפרט, הוא החליף (לפעמים) בין האותיות:
+First - compiling all the files and make test for that problem
 
-* v, w
-* b, f, p
-* g, j
-* c, k, q
-* s, z 
-* d, t 
-* o, u
-* i, y
+Second - solvind the problem itself 
 
-והפך (לפעמים) אותיות קטנות לגדולות או להיפך.
 
-המטרה שלכם היא לכתוב פונקציה המוצאת מילה בטקסט, גם אם המילה כתובה בטקסט עם שגיאות כתיב.
-הפונקציה צריכה להחזיר את המילה כפי שהיא כתובה בטקסט.
+## The problem:
 
-למשל: נניח שהטקסט המתומלל הוא: 
-"Dond vorri be haffy".
+Gving a txet with that contains known typos need to find a given word in side of it.
 
-אם המילה שצריך לחפש היא "dont"
-אז הפלט יהיה "Dond" - זו אותה מילה רק עם חילוף של 
-t ב-d וחילוף של אות גדולה בקטנה.
+The knowen typos:
+(switching the letters)
+v, w
 
-שימו לב - המתמלל לא תמיד טועה, הוא טועה רק מדי פעם.
-למשל, אם המילה שמחפשים היא "be" 
-אז הפלט יהיה "be" - זו אותה מילה בדיוק - בלי שגיאות.
+b, f, p
 
-ניתן להניח שבמחרוזת יש רק אותיות אנגליות גדולות וקטנות, ורווחים
-(ללא סימני פיסוק).
-יש לחפש רק מילים שלמות. 
+g, j
 
-אם המילה שמחפשים לא נמצאת בטקסט - יש לזרוק חריגה.
+c, k, q
 
-כדי לראות איך הפונקציה אמורה לעבוד, ראו בקובץ
-[Demo.cpp](Demo.cpp)
-המצורף.
+s, z
 
-בשלב א עליכם לכתוב את הקבצים הדרושים כך שהפקודות הבאות יעבדו ללא שגיאות קימפול:
+d, t
 
-<div dir='ltr'>
+o, u
 
-    make demo && ./demo
-	make test && ./test
+i, y
 
-</div>
+* Also ignoring upper and lowe/upper case letter
 
-בפרט, עליכם לכתוב את  הקבצים הבאים:
+Example : 
+text : "Dond vorri be haffy"
+looking for: "dont"
+Output: "Dond" -> as we know t can be replaces with 't' and upper case are ignored.
 
-* PhoneticFinder.hpp - כותרת לפונקציה.
-* PhoneticFinder.cpp - מימוש בסיסי של הפונקציה - לא חייב להיות מלא - צריך רק להתקמפל.
-* Test.cpp - בדיקות-יחידה בפורמט doctest. יש לכתוב בדיקות מפורטות ולהתייחס למקרי קצה.
-   * ניתן לראות דוגמה לבדיקות בקובץ TestExample.cpp, אבל יש לכתוב הרבה בדיקות נוספות.
 
-במטלות בקורס זה אנחנו כותבים את הבדיקות לפני המימוש.
-זה אומר שבשלב א, יהיו לנו הרבה בדיקות, ורובן ייכשלו.
+Authors: Lilach Mor & Omer Rugi
 
-שימו לב!
-אין לשנות קבצים קיימים, אלא רק להוסיף קבצים חדשים.
-
-</div>
